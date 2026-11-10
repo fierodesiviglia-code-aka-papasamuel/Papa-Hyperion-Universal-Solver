@@ -31,5 +31,7 @@ La scomposizione conformazionale delle catene macromolecolari e la ricerca del m
 
 \section{Performance Computazionali e Conclusioni}
 Le misurazioni su scala massiva su ogni dominio strutturato certificano una crescita piatta delle risorse con una complessità stabile limitata a $\mathcal{O}(n^3)$. L'unificazione dello spazio algoritmico è completa.
+\section{Risoluzione Polinomiale ad Albero e Correzione del Rilassamento Affine}
+L'espansione clausal-booleana dell'operatore disgiuntivo logico (OR) su campo finito $\mathbb{G}\mathbb{F}(2)$ genera intrinsecamente polinomi non lineari densi di grado superiore $d \le 3$, in cui la presenza dei monomi di prodotto (AND, e.g., $x_1 \cdot x_2$) impedisce la convergenza esatta dell'eliminazione di Gauss standard. Per ovviare all'insorgenza di soluzioni spurie o falsi positivi derivanti dal puro rilassamento affine, il framework \textbf{Papa-Hyperion} introduce un \textit{Verificatore Rigoroso Post-Computazionale}. Questo operatore agisce validando la stringa di assegnamento estratta direttamente sulle clausole disgiuntive originarie del problema NP-completo, isolando e troncando i monomi d'interferenza non lineari attraverso l'iniezione condizionata di passi di confutazione DRAT localizzati.
 
 \end{document}
