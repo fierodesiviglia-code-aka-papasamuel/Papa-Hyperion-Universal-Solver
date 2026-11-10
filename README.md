@@ -53,4 +53,11 @@ Per verificare la risoluzione polinomiale delle collisioni cromatiche su scale m
 python3 papa_hyperion_coloring.py
 ```
 
+### Passo 5: Esegui la Modellazione Bioinformatica (Protein Folding)
+Per testare il disinnesco del Paradosso di Levinthal e calcolare la stabilità tridimensionale di una catena proteica critica applicata alla ricerca sui farmaci oncologici, esegui:
+```bash
+python3 papa_hyperion_folding.py
+```
+
+
 Se vedi il simbolo `[✓]` stampato sullo schermo, significa che il Motore di Campo Logico ha inizializzato l'ambiente affine ed è pronto per elaborare i dati in tempo polinomiale.
