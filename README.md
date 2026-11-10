@@ -58,6 +58,11 @@ Per testare il disinnesco del Paradosso di Levinthal e calcolare la stabilità t
 ```bash
 python3 papa_hyperion_folding.py
 ```
+### Passo 6: Esegui il Metarisolvitore Universale (Sistemi Complessi)
+Per testare la contrazione tensoriale e la convergenza su sistemi fluidodinamici caotici, modelli predittivi stocastici e reti logistiche globali, esegui:
+```bash
+python3 papa_hyperion_universal.py
+```
 
 
 Se vedi il simbolo `[✓]` stampato sullo schermo, significa che il Motore di Campo Logico ha inizializzato l'ambiente affine ed è pronto per elaborare i dati in tempo polinomiale.
